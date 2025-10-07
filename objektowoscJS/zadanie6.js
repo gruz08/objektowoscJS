@@ -33,9 +33,9 @@ class Pisarz extends Artysta {
   }
 }
 
-// Test
 const artysci = [new Rzezbiarz("Michał"), new Malarz("Leonardo"), new Pisarz("Adam")];
 artysci.forEach(a => {
   a.tworzDzielo();
   a.kontempluj();
+
 });
